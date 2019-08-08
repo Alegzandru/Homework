@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Height {
     public static void main(String[] args) {
-        System.out.println("Height in inches = " );
         Scanner input= new Scanner(System.in);
+        System.out.println("Height in inches = " );
         int i = input.nextInt();
         if (i>=12){
             int j = i/12;
