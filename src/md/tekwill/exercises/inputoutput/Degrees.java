@@ -14,9 +14,9 @@ public class Degrees {
         double Minutes = input.nextInt();
         System.out.println("Seconds");
         double Seconds = input.nextInt();
-        final double minutes_to_degrees = 60;
+        final double minutesToDegrees = 60;
         final double seconds_to_degrees = 3600;
-        double Decimal_Value = Degrees + (Minutes/minutes_to_degrees) + (Seconds/seconds_to_degrees);
+        double Decimal_Value = Degrees + (Minutes/minutesToDegrees) + (Seconds/seconds_to_degrees);
         System.out.printf("%.4f", Decimal_Value);
 
     }

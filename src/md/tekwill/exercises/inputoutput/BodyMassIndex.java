@@ -11,10 +11,10 @@ public class BodyMassIndex {
         System.out.println("Feet : ");
         int heightFeet = input.nextInt();
         System.out.println("Inches : ");
-        int heighInches = input.nextInt();
+        int heightInches = input.nextInt();
         System.out.println("Introduce weight in pounds : ");
         int weightpounds = input.nextInt();
-        double heightMeters = (heightFeet*12 + heighInches)*to_Meters;
+        double heightMeters = (heightFeet*12 + heightInches)*to_Meters;
         double weightKg = weightpounds/to_kg;
         double BMI = weightKg/(heightMeters*heightMeters);
         System.out.println(BMI);
