@@ -2,7 +2,7 @@ package md.tekwill.exercises.inputoutput;
 
 import java.util.Scanner;
 
-public class Seconds_to_days {
+public class SecondsToDays {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Introduce number of seconds : ");

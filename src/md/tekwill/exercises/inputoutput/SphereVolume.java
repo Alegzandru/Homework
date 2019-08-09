@@ -2,7 +2,7 @@ package md.tekwill.exercises.inputoutput;
 
 import java.util.Scanner;
 
-public class Sphere_Volume {
+public class SphereVolume {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Introduce radius lenght in meters :");

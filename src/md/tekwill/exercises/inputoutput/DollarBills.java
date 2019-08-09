@@ -2,7 +2,7 @@ package md.tekwill.exercises.inputoutput;
 
 import java.util.Scanner;
 
-public class Dollar_Bills {
+public class DollarBills {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Introduce an amount of money");

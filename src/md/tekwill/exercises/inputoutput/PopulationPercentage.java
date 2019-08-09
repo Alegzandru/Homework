@@ -2,7 +2,7 @@ package md.tekwill.exercises.inputoutput;
 
 import java.util.Scanner;
 
-public class Population_Percentage{
+public class PopulationPercentage {
     public double calculate_Percentage1 (double part1, double whole){
         return part1/whole*100;
         }
@@ -11,7 +11,7 @@ public class Population_Percentage{
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Population_Percentage prc = new Population_Percentage();
+        PopulationPercentage prc = new PopulationPercentage();
         System.out.println("Introduce world population at the moment :");
         long whole = input.nextLong();
         System.out.println("Introduce population in the US at the moment");
