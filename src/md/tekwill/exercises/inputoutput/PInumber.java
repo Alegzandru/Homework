@@ -2,13 +2,15 @@ package md.tekwill.exercises.inputoutput;
 
 public class PInumber {
     public static void main(String[] args) {
-        int nb [] = new int [100000];
-        int nb2 []=new int[100000];
-
+        double computedValue = 0.00;
+        double piValue = 4.00;
+        for (double i=1, j = 3; i<=200000; ++i, j+=2){
+            if (i%2==1)
+                computedValue-=4/j;
+            else
+                computedValue+=4/j;
         }
-    public void firstpart (int nb []){
-        for (int i = 3;; i=i+2){
-
-        }
+        piValue +=computedValue;
+        System.out.println(piValue);
     }
 }

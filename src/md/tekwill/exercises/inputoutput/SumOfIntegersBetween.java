@@ -9,7 +9,7 @@ public class SumOfIntegersBetween {
         int smallNumber = input.nextInt();
         int bigNumber = input.nextInt();
         int sum = 0;
-        for (int s ; smallNumber>0&&bigNumber>0&&smallNumber<=bigNumber;++smallNumber){
+        for (; smallNumber>0&&bigNumber>0&&smallNumber<bigNumber;++smallNumber){
             sum +=smallNumber;
         }
         System.out.println(sum);
