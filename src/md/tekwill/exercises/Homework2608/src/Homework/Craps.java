@@ -55,18 +55,18 @@ public class Craps {
 
     }
 
-    public void again(int ThisSum){
-        if (ThisSum==4||ThisSum==5||ThisSum==6||ThisSum==10||ThisSum==8||ThisSum==9) {
+    public void again(int thissum){
+        if (thissum==4||thissum==5||thissum==6||thissum==10||thissum==8||thissum==9) {
             Random rand = new Random();
             int first = rand.nextInt(6) + 1;
             int second = rand.nextInt(6) + 1;
             int sum = first + second;
             System.out.println("You rolled "+sum);
-            if (sum==ThisSum)
+            if (sum==thissum)
                 System.out.println("You win!");
             else if (sum==7)
                 System.out.println("You lose!");
-            else winByEqualOrLoseBy7(ThisSum);
+            else winByEqualOrLoseBy7(thissum);
         }
     }
 }

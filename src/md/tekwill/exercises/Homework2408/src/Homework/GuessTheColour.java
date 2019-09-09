@@ -20,7 +20,7 @@ GuessTheColour guess = new GuessTheColour();
     }
 
 
-    public int humanMadeAChoice (){
+    public int humanMakesAChoice(){
         int i = 0;
         Scanner input = new Scanner(System.in);
         String colourName = input.nextLine();
@@ -35,7 +35,7 @@ GuessTheColour guess = new GuessTheColour();
         if (colourName.toLowerCase().equals("yellow"))
             i = 5;
         if (i==0)
-            humanMadeAChoice();
+            humanMakesAChoice();
         return i;
     }
 
@@ -44,7 +44,7 @@ GuessTheColour guess = new GuessTheColour();
         int t = 0;
         for (int z =1; z<=times; z++){
             System.out.println("Choose one colour: ");
-            if (humanMadeAChoice()==generateNumber())
+            if (humanMakesAChoice()==generateNumber())
                 t++;
         }
         return t;
